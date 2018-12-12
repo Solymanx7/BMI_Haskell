@@ -17,11 +17,14 @@ Normal weight: BMI is 18.5 to 24.9
 Overweight: BMI is 25 to 29.9
 Obese: BMI is 30 or more
 
-2. Functions Description
+2.Functions Description
 
 isExist: takes a list of strings as input (names of the files) and return IO Bool as output (the result of finding file true or false)
+
 CalBMI: take weight and height as an inputs of type double and return a double value of BMI factor using the BMI formula
+
 getCondition: take the BMI factor as an input of type double and then return a string which describe person condition according to BMI table
+
 main: the main function, which do the following
 Check if the file is exist by calling isExist function, and if not exist it will print a message notifying the user about that then open new File in appending Mode 
 Ask user to enter height and weight
@@ -32,5 +35,4 @@ Write the results with the date into the opened File
 print the results to the screen
 Close the File
 Ask the user if he want to use the application again, if so it will to go the main again and start the whole cycle
-
 
